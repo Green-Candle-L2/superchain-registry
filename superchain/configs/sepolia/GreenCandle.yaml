@@ -1,0 +1,21 @@
+name: GreenCandle
+chain_id: 77788777
+public_rpc: https://rpc-testnet.candl.green
+sequencer_rpc: https://rpc-testnet.candl.green/sequencer
+explorer: https://explorer.candl.green
+
+superchain_level: 2
+superchain_time: 0 # Missing hardfork times are NOT yet inherited from superchain.yaml
+
+batch_inbox_addr: 0xff00000000000000000000000000000000042069
+
+genesis:
+  l1:
+    hash: 0x0a5eebc4b01f0ec6946f9cfa2900ee84a5f2165a3a46d7a35d35e12079e9af26
+    number: 6019708
+  l2:
+    hash: 0x8055d1b79ce4ea88915e058db7363a43e7dccc39defc9c222933f1d8b7d8502e
+    number: 0
+  l2_time: 1717260000 # Sat 1 Jun 2024 16:40:00 UTC
+
+canyon_time: 0 # Thu 1 Jan 1970 00:00:00 UTC
